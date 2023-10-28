@@ -25,9 +25,11 @@ Unlock the potential of Unreal Bulk Manager, custom-made for the Unreal Engine M
 Before deploying the script, ponder over its configurations:
 
 - **Selectors**:
-  - `ASSET_PRICE_SELECTOR`: Pinpoints the asset's price tag.
-  - `ADD_TO_CART_SELECTOR`: Locates the "Add to Cart" action button.
-  - ... (Modify as required)
+  - `PRICE_CLASS`: Pinpoints the asset's price tag.
+  - `ASSET_CONTAINER_CLASS`: Identifies the main container of each asset.
+  - `ADD_TO_CART_BUTTON_CLASS`: Locates the "Add to Cart" action button.
+  - `REVIEW_BUTTON_CLASS`: Checks if an asset has a "Write a Review" button.
+  - `ITEM_NAME_CLASS`: Retrieves the name of the asset.
 
 > 📝 Tip: These selectors come pre-configured. However, adaptability is key. Stay alert for any structural shifts in the Marketplace's web layout.
 
